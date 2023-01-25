@@ -1,0 +1,46 @@
+body{
+	
+background-image: url(img/nature.jpg);
+background-size: cover;	
+}
+
+.register-form {
+	width: 400px;
+	background: rgba(0,0,0,.4);
+	margin:100px auto;	
+	padding: 40px 20px;
+	border-radius: 10px;
+}
+
+ .register-form input{
+	display: block;
+	width: 100%;
+	font-size: 15px;
+	border: 1px solid yellow;
+	background: transparent;
+	color: #fff;
+	border-radius: 5px;
+	
+}
+.register-form label{
+	cursor: pointer;
+	padding: 5px;
+	display: block;
+	color: #fff;
+	font-family: tahoma;
+	font-size: 15px;
+}
+.register-form input[type=submit]{
+	width: 200px;
+	margin-top: 10px;
+	font-size: 15px;
+	cursor: pointer;		
+}
+.register-form p{
+	color: #fff;
+	font-size: 10px;
+	font-family: tahoma;
+}
+.register-form p a{
+	color: yellow;
+}
